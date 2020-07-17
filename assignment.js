@@ -49,13 +49,16 @@ console.log(total);
 //forth
 
 function tinyFriend(friends){
+    
     var tiny=friends[0];
     for(var i=0;i<friends.length;i++){
         var currentfriends=friends[i];
         if(currentfriends.length < tiny.length){
             tiny=currentfriends;
         }
-    }
+
+    
+}
     return tiny;
 }
 var tinyfriend=tinyFriend(['nabil','ayesha','sara','tui','itu']);
